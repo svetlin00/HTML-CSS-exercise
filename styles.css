@@ -1,0 +1,101 @@
+@font-face {
+    font-family: PT Sans ;
+    src: url(https://fonts.googleapis.com/css?family=PT+Serif);
+    src: url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 24px;
+    
+}
+.navbar {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5em;
+    padding-right: 3.16em;
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+   
+}
+
+.navbar .logo-container
+{
+    background-image: url(./images/logo.webp);
+}
+.logo
+{
+    width: 120px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1.16em;
+  list-style: none;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+.header-section {
+    background-color: #01042C;
+    flex: 1 1 auto;
+    color: #fff;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13em;
+    
+}
+.header {
+    margin-left: 9.16em;
+    overflow: hidden;
+    width: 860px;
+
+
+    
+}
+.header h1{
+    font-size: 72px;
+    margin-bottom: 0.4em ;
+
+    
+
+}
+.header p {
+    outline: 3;
+    font-size: 24px;
+    line-height: 2em;
+ 
+    margin: 0;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:  9.16em;
+    gap: 2.5em;
+  
+}
+.main h2{
+    font-size: 64px;
+    color: #37282B;
+}
+
+.main a {
+    text-decoration: none;
+    border: solid #B0825C;
+    color: #B0825C;
+    padding: 0.75em;
+    margin-top: 2.5em;
+
+}
