@@ -3,10 +3,13 @@
     src: url(https://fonts.googleapis.com/css?family=PT+Serif);
     src: url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 }
-body {
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
 html{
     font-size: 24px;
     
@@ -89,6 +92,10 @@ html{
 .main h2{
     font-size: 64px;
     color: #37282B;
+
+}
+.main p {
+    margin-bottom: 2em;
 }
 
 .main a {
@@ -97,5 +104,18 @@ html{
     color: #B0825C;
     padding: 0.75em;
     margin-top: 2.5em;
+}
 
+hr{
+    border: 2px solid #CCCCCC;
+    width: auto;
+    margin-bottom: 2.875em ;
+
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
 }
